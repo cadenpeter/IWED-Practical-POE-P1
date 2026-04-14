@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*This is my unordered list styling*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+ul li {
+    float: left;
+}
+ul li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: Top Right Bottom Left;
+    
+}
