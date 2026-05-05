@@ -45,25 +45,21 @@ footer a {
     margin: 0 8px;
 
 }
-body {
-    counter-reset: section;
-}
 
 section {
-    counter-increment: section;
-    min-height: 100vh; /* makes each section full screen */
-    padding: 60px 20px 30px;
+    min-height: 100vh;
+    padding: 60px 20px;
     border-bottom: 1px solid black;
-
-    display: grid;
-    grid-template-rows: 1fr auto;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Page number at bottom */
-section::after {
-    content: "Page " counter(section);
+.section-content {
+    flex: 1;
+}
+
+.page-number {
     text-align: center;
+    margin-top: auto;
     font-weight: bold;
-    color: black;
-    margin-top: 40px;
 }
