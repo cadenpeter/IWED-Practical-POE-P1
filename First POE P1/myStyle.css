@@ -29,6 +29,19 @@ img{
     margin: 10px;
 }
 
+ol {
+    line-height: 2;
+}
+ol a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+ol a:hover {
+    color: darkblue;
+}
+
 section {
     min-height: 100vh;
     padding: 60px 20px;
