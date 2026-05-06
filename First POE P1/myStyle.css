@@ -28,17 +28,6 @@ ul li a:hover {
 img{
     margin: 10px;
 }
-footer {
-    background-color: lightslategray;
-    color: white;
-    text-align: center;
-    padding: 15px 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-size: 14px;
-}
 
 section {
     min-height: 100vh;
@@ -58,10 +47,23 @@ section {
     font-weight: bold;
 }
 
+footer {
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
 footer a {
     color: #ffffff;
     text-decoration: none;
     margin: 0 8px;
 
 }
+
 
