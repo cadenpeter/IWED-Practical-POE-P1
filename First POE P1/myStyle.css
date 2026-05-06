@@ -29,6 +29,13 @@ img{
     margin: 10px;
 }
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
 .portfolio-image {
     width: 300px;
     height: auto;
@@ -47,6 +54,16 @@ ol a {
 
 ol a:hover {
     color: darkblue;
+}
+
+.main-heading {
+    border: 3px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+    background-color: lightslategrey;
 }
 
 section {
