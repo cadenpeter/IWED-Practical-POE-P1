@@ -39,12 +39,6 @@ footer {
     width: 100%;
     font-size: 14px;
 }
-footer a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 8px;
-
-}
 
 section {
     min-height: 100vh;
@@ -63,3 +57,11 @@ section {
     margin-top: auto;
     font-weight: bold;
 }
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+
+}
+
