@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWED5112|Home page</title>
+    <link href="myStyle.css" rel="stylesheet">
+</head>
+<body>
+    
+    <ul>
+
+        <!--This is where my logo image is located in iwed prac poe p1-->
+    <li class="logo-item">
+        <img src="Images/Logo.jpeg" class="logo" alt="Logo Image" height="50" width="50">
+    </li>
+
+        <li><a href="myTableOfContents.html">Table Of Contents</a></li>
+        <li><a href="myHome.html">Home</a></li>
+        <li><a href="myAboutUs.html">About Us</a></li>
+        <li><a href="myServices.html">Services</a></li>
+        <li><a href="myPortfolio.html">Portfolio</a></li>
+        <li><a href="myBlog.html">Blog</a></li>
+        <li><a href="myContactInfo.html">Contact Info</a></li>
+        <li><a href="myPrivacypolicy">Contact Info</a></li>
+        <li style="float: right;"><a>Welcome Back Caden!</a></li>
+    </ul>
+    <section id="home">
+        <div class="section-content">
+        <h1 class="main-heading">Privacy Policy</h1>    
+    <h2>Caden Peter Marketing</h2>
+    <p>At Caden Peter Marketing, protecting your privacy is important to us. Any information shared through our website is handled carefully and responsibly. This Privacy Policy explains what information we may collect and how it may be used when you visit our website or contact us online.
+When using our website, we may collect details such as your name, email address, phone number or business information if you complete a contact form or get in touch with us directly. We may also collect general website data such as the type of device you use, browser information and pages visited to help improve the performance and usability of the website.
+The information collected is mainly used to respond to enquiries, provide our digital marketing services and improve the overall experience for visitors using the website. Where permission has been given, we may also use contact details to share updates or marketing-related information.
+Our website may use cookies and analytics tools to better understand visitor activity and website traffic. This helps us improve our services, content and website functionality.
+Caden Peter Marketing does not sell personal information to third parties. In some cases, information may be shared with trusted service providers who assist with website or business operations, but this information is handled securely and only used where necessary.
+We take reasonable precautions to protect personal information from unauthorised access, misuse or loss by using secure systems and limiting access to sensitive data.
+In line with the Protection of Personal Information Act (POPIA), users have the right to request access to their personal information, ask for corrections or request that their information be removed.
+If you have any questions about this Privacy Policy or how your information is handled, you can contact Caden Peter Marketing using the contact details provided on the website.
+This Privacy Policy may be updated from time to time to reflect changes in our services, technology or legal requirements. </p>
+</div>
+
+<p class="page-number">Page 2</p>
+</section>
+    <footer>&copy;2026 - IWED5112. All rights reserved
+        <nav>
+        <a href="myContactInfo.html">Contact Info</a>|
+        <a href="myServices.html">Our Services</a>|
+        <a href="myPrivacypolicy">Privacy policy</a>
+        </nav>
+    </footer>
+</body>
+</html>
