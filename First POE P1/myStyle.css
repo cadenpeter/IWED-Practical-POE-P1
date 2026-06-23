@@ -100,4 +100,45 @@ footer a {
 
 }
 
+/* DESKTOP VIEW */
+@media (min-width: 768px) {
+
+/* Show top nav */
+• desktop-nav { 
+    display: block;
+}
+
+/* Hide mobile elements */
+• menu-btn {
+   display: none;
+}
+
+.drawer {
+  display: none !important;
+  }
+}
+
+/* Menu button */
+• menu-btn {
+  font-size: 22px; 
+  background: none;
+  border: none;
+  color: lightslategray; 
+  cursor: pointer;
+}
+
+/* Drawer (mobile only) */
+•drawer {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  width: 0;
+  height: 100%;
+  background: lightslategray;
+  overflow: hidden;
+  transition: width 0.4s ease; 
+  padding-top: 60px;
+  display: block;
+}
+
 
