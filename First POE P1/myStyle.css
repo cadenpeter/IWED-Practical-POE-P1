@@ -105,17 +105,12 @@ footer a {
 
 /* Show top nav */
 .desktop-nav { 
-  display: block;
+  display: none;
 }
 
 /* Hide mobile elements */
 .menu-btn {
   display: none;
-}
-
-.drawer {
-  display: none !important;
-  }
 }
 
 /* Menu button */
@@ -132,7 +127,7 @@ footer a {
   position: fixed;
   top: 0; 
   left: 0; 
-  width: 0;
+  width: 250px;
   height: 100%;
   background: lightslategray;
   overflow: hidden;
@@ -140,9 +135,8 @@ footer a {
   padding-top: 60px;
 }
 
-.drawer.open {
-    width: 250px;
-}
+.drawer.show {
+    display: block;
 
 .drawer a {
   display: block; 
@@ -154,6 +148,7 @@ footer a {
 
 .drawer a:hover {
    background: lightslategray;
+}
 }
 
 
