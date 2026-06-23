@@ -6,16 +6,18 @@ let isOpen = false;
 
 /*Mobile drawer toggle */
 menuBtn.addEventListener("click", () => {
-if (!isOpen) {
-    drawer.style.display = "block";
-    setTimeout (() => {
-        drawer.style.width = "250px";
-    }, 10);
-    isOpen = true;
-} else {
-    drawer.style.width = "0";
-    setTimeout(() =>{
+    if(drawer.style.display == "block"){
         drawer.style.display = "none";
-    }, 400);
-}
+    }else{
+        drawer.style.display = "block";
+    }
 });
+
+/* Live date and time */
+function updateTime() {
+    const now = new Date ();
+    datetime.textContent = now.toLocaleString();
+}
+
+setInterval(updateTime, 1000);
+updateTime();
