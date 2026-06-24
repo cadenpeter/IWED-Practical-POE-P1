@@ -134,6 +134,12 @@ footer a {
 
 /* Menu button */
 .menu-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: auto;
+    z-index: 1001;
+
     font-size: 22px;
     background: none;
     border: none;
