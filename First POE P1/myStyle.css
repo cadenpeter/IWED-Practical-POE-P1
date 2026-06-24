@@ -100,55 +100,54 @@ footer a {
 
 }
 
-/* DESKTOP VIEW */
+/* Desktop View */
 @media (min-width: 768px) {
 
-/* Show top nav */
-.desktop-nav { 
-  display: none;
-}
+    /* Show top nav */
+    .desktop-nav {
+        display:block;
+    }
 
-/* Hide mobile elements */
-.menu-btn {
-  display: none;
+    /* Hide mobile elements */
+    .menu-btn {
+        display: none;
+    }
+
+    .drawer {
+        display: none !important;
+    }
 }
 
 /* Menu button */
 .menu-btn {
-  font-size: 22px; 
-  background: none;
-  border: none;
-  color: lightslategray; 
-  cursor: pointer;
+    font-size: 22px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 /* Drawer (mobile only) */
 .drawer {
-  position: fixed;
-  top: 0; 
-  left: 0; 
-  width: 250px;
-  height: 100%;
-  background: lightslategray;
-  overflow: hidden;
-  transition: width 0.4s ease; 
-  padding-top: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: lightslategray;
+    overflow: hidden;
+    transition: width 0.4s ease;
+    padding-top: 60px;
+    display: none;
 }
-
-.drawer.show {
-    display: block;
 
 .drawer a {
-  display: block; 
-  padding: 15px; 
-  color: white;
-  text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
 }
-
 
 .drawer a:hover {
-   background: lightslategray;
+    background: lightslategray;
 }
-}
-
-
