@@ -118,12 +118,26 @@ footer a {
     }
 }
 
+/* Mobile view */
+@media (max-width: 767px) {
+    
+    /* Hide top nav */
+    .desktop-nav {
+        display: none;
+    }
+    
+    /* Show Mobile Button */
+    .menu-btn {
+        display: block;
+    }
+}
+
 /* Menu button */
 .menu-btn {
     font-size: 22px;
     background: none;
     border: none;
-    color: white;
+    color: lightslategray;
     cursor: pointer;
 }
 
