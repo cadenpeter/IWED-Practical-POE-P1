@@ -1,5 +1,6 @@
 const menuBtn = document.getElementById("menuBtn");
 const drawer = document.getElementById("drawer");
+const datetime = document.getElementById("datetime")
 
 /* Mobile drawer toggle */
 menuBtn.addEventListener("click", () => {
@@ -9,3 +10,13 @@ menuBtn.addEventListener("click", () => {
         drawer.style.display = "block";
     }
 });
+
+/*Live date & time*/
+function updateTime() {
+    const now = new Date();
+    datetime.textContent = now.toLocaleString();
+}
+
+setInterval(updateTime, 1000);
+updateTime();
+
